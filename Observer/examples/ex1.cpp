@@ -1,11 +1,11 @@
+/* created by Ghabriel Nunes <ghabriel.nunes@gmail.com> [2017] */
+
 #include <iostream>
 #include "../impl.hpp"
 
 class Message {
  public:
-    Message(const std::string& msgContent) {
-        content = msgContent;
-    }
+    Message(const std::string& content) : content(content) {}
 
     const std::string& getContent() const {
         return content;
@@ -18,9 +18,7 @@ class Message {
 
 class UserEntranceEvent {
  public:
-    UserEntranceEvent(const std::string& name) {
-        username = name;
-    }
+    UserEntranceEvent(const std::string& username) : username(username) {}
 
     const std::string& getUsername() const {
         return username;

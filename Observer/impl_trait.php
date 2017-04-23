@@ -1,4 +1,5 @@
 <?php
+/* created by Ghabriel Nunes <ghabriel.nunes@gmail.com> [2017] */
 
 interface Observer {
     public function notify($data);

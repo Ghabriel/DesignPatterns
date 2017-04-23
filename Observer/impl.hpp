@@ -1,3 +1,5 @@
+/* created by Ghabriel Nunes <ghabriel.nunes@gmail.com> [2017] */
+
 #ifndef IMPL_HPP
 #define IMPL_HPP
 
