@@ -1,3 +1,5 @@
+# created by Ghabriel Nunes <ghabriel.nunes@gmail.com> [2017]
+
 FILES :=$(wildcard *.cpp)
 EXEC  :=test
 
